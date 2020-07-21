@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Filmzoeker</title>
+    <script defer type="text/javascript" src=movielist.js></script>
+    <script defer type="text/javascript" src=movies.js></script>
+    <link rel="stylesheet" href="movies.css">
+</head>
+
+<body>
+    <div>
+        <nav class="filtermenu">
+            <input id="newest" type="radio" name="button" value="Newest"><label>Nieuwste films</label></input>
+            <input id="avengers" type="radio" name="button" value="Avengers"><label>Avengers</label></input>
+            <input id="xmen" type="radio" name="button" value="X-Men"><label>X-Men</label></input>
+            <input id="princess" type="radio" name="button" value="Princess"><label>Princess</label></input>
+            <input id="batman" type="radio" name="button" value="Batman"><label>Batman</label></input>
+            <br></br>
+            <input id="inputfield" type="text" value="Zoek op naam"></input>
+            <input id="searchbutton" type="button" value="Search"></input>
+        </nav>
+        <header>
+            <p>Welkom bij de Filmzoeker</p>
+        </header>
+        <br></br>
+    </div>
+    <div id="container">
+        <ul id="filteredList">
+
+
+        </ul>
+    </div>
+
+
+</body>
+
+</html>

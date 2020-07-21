@@ -1,0 +1,40 @@
+body {
+    background-color: darkorange;
+}
+
+input {
+font-family: Arial, Helvetica, sans-serif;
+}
+
+label {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+ul {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-row-gap: 10px;
+    justify-content: space-between;
+      
+}
+
+.filtermenu {
+    display: flex;
+    justify-content: space-around;
+    background-color: #333333;
+    
+}
+
+#inputfield:focus {
+    background-color: lightslategray;   
+};
+
